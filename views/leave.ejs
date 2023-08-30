@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Clone Exit</title>
+    <script src="https://kit.fontawesome.com/469e9c05d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="leavestyle.css">
+
+</head>
+<body>
+    <div class="main">                                                <!-- Thankyou block-->
+        <div class="Thank">
+            <span><b>Thankyou for attending the meeting.</b></span><br>
+        </div>
+        <div class="rate">                                            <!-- Rating-->
+            Take a second to rate it:<br>
+            <div class="star" onclick="feedback()">
+                <input type="radio" name="rat1" id="rat1"/>
+                <label for="rat1" class="fas fa-star"></label>
+                <input type="radio" name="rat1" id="rat2"/>
+                <label for="rat2" class="fas fa-star"></label>
+                <input type="radio" name="rat1" id="rat3"/>
+                <label for="rat3" class="fas fa-star"></label>
+                <input type="radio" name="rat1" id="rat4"/>
+                <label for="rat4" class="fas fa-star"></label>
+                <input type="radio" name="rat1" id="rat5"/>
+                <label for="rat5" class="fas fa-star"></label>
+            </div>
+        </div>
+        <div id="final">                                         <!-- Good day message-->
+            Thankyou for your feedback.<br>
+            <span id="happy">Have a good day&#128516;</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
